@@ -47,4 +47,24 @@ Password: `
 
 Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! We call your computer the client and the computer in the basement the server based on how you are connected.
 
-If in doubt or if you encounter an error, just ask someone
+If in doubt or if you encounter an error, just ask someone!
+
+## Trying some commands
+Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, 
+and on the remote computer after ssh-ing (use the terminal in VScode) . Can you cause them to produce error 
+messages? What do they mean? If you’re on Windows, what happens when you use them on Windows?
+
+`cd ~
+cd
+ls -lat
+ls -a
+ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username
+`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+
+To log out of the remote server in your terminal, you can use:
+* Ctrl-D
+* Run the command exit
+You can also open more terminals in VSCode (there is a little + button at the top of the terminal window where you can create another).
+
+You have finished the tutorial. Congratulations!
