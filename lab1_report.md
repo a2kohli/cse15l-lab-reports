@@ -47,4 +47,4 @@ Password: `
 
 Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! We call your computer the client and the computer in the basement the server based on how you are connected.
 
-If in doubt or if you encounter an error, just ask someone!
+If in doubt or if you encounter an error, just ask someone
