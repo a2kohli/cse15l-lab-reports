@@ -62,6 +62,8 @@ Try running the commands cd, ls, pwd, mkdir, cat and rmdir a few times on your t
 
 `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
+![Image](commands.png)
+
 To log out of the remote server in your terminal, do:
 * Ctrl-D
 or
