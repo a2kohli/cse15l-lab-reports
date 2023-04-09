@@ -3,26 +3,26 @@
 **This is a tutorial for logging into your course specific account on ieng6**
 
 ## Installing Visual Studio Code
-Go to the Visual Studio Code website [link](https://code.visualstudio.com/) and 
-follow the instructions to download and install it on your computer. There are
-versions for all the major operating systems, like macOS (for Macs) and Windows (for PCs).
+Go to [link](https://code.visualstudio.com/) and 
+follow the instructions to download vscode on your computer.
 
 When it is installed, you should be able to open a window that looks 
 like this (it might have different colors, or a different menu bar, depending on your system and settings):
 ![Image](vscode.png)
 
-## Remotely connecting
-Many courses in CSE use course-specific accounts. These are similar to accounts you might
-get on other systems at other institutions (or a future job). We’ll see how to use VScode/terminal
-to connect to a remote computer over the Internet to do work there.
+Note: I didn't have to do this step (of installing vscode) as I already had it installed on my system.
 
-There is a first step you need if you’re on Windows: install git for Windows, which comes with some useful tools we need:
+## Remotely connecting
+The goal here is to use the vscode terminal
+to connect to a remote computer over the Internet and then do work there.
+
+If you’re on Windows: install git from the site:
 [git for windows](https://gitforwindows.org/)
 
-Once installed, use the steps in this post to set your default terminal to use the newly-installed git bash in Visual Studio Code:
-[Using bash on vscode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+After that, use the steps in the following link to use git bash in vscode:
+[bash on vscode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 
-Then, to use ssh, open a terminal in VScode. Use the Terminal → New Terminal menu option. Your command will look like this, but with the zz replaced by the letters in your course-specific account.
+Use the Terminal → New Terminal menu option to open a terminal on vscode where you can use ssh as follows (replace zz with the letters in your own course specific account)
 
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
@@ -34,7 +34,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 
-Type `yes` and press enter, then give your password; the whole interaction should look something like this once you give your password and are logged in:
+Type `yes` and press enter, then give your password. It should look like this after you are logged in:
 
 `# On your client
 ⤇ ssh cs15lsp23zz@ieng6.ucsd.edu
@@ -45,32 +45,29 @@ Password: `
 
 ![Image](remote_connection.png)
 
-Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! We call your computer the client and the computer in the basement the server based on how you are connected.
-
-If in doubt or if you encounter an error, just ask someone!
+Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! So your computer can be considered as the client and the computer in the CSE basement as the server.
 
 ## Trying some commands
-Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, 
-and on the remote computer after ssh-ing (use the terminal in VScode) . Can you cause them to produce error 
-messages? What do they mean? If you’re on Windows, what happens when you use them on Windows?
-
-`cd ~`
+Try running the commands cd, ls, pwd, mkdir, cat and rmdir a few times on your terminal (after ssh-ing)
 
 `cd`
 
-`ls -lat`
+`ls`
 
-`ls -a`
+`pwd`
 
-`ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username
+`mkdir new_directory`
 
-`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+`rmdir new_directory`
 
 `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-To log out of the remote server in your terminal, you can use:
+To log out of the remote server in your terminal, do:
 * Ctrl-D
+or
 * Run the command exit
-You can also open more terminals in VSCode (there is a little + button at the top of the terminal window where you can create another).
+You can also open more terminals in VSCode using the + button at the top of the terminal.
+
+If in doubt or if you encounter an error in any of the steps, just ask someone!
 
 You have finished the tutorial. Congratulations!
