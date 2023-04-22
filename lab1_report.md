@@ -62,7 +62,7 @@ This command is the 'list' command. It lists the contents (the files and directo
 
 `pwd`
 
-This is the 'print working directory' command. It outputs the entire path(from the root directory) of the current directory to the terminal. For instance, if the current directory called lab1 is in the desktop folder which is in the home directory (of a user called bob), then `pwd` would output `/Users/bob/desktop/lab1` to the terminal
+This is the 'print working directory' command. It outputs the entire path (from the root directory) of the current directory to the terminal. For instance, if the current directory called lab1 is in the desktop folder which is in the home directory (of a user called bob), then `pwd` would output `/Users/bob/desktop/lab1` to the terminal
 
 `mkdir new_directory`
 
@@ -87,4 +87,4 @@ You can also open more terminals in VSCode using the + button at the top of the 
 
 If in doubt or if you encounter an error in any of the steps, just ask someone!
 
-You have finished the tutorial. Congratulations!
+You have finished this tutorial. Congratulations!
