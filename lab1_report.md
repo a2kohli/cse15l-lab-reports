@@ -74,7 +74,8 @@ This is the 'remove directory' command. It removes the specified directory from 
 
 `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-This is the 'concatenate' command. It outputs the contents of a file to a terminal. It is also used to concatenate the contents of multiple files.
+This is the 'concatenate' command. It outputs the contents of a file to a terminal. It is also used to concatenate the contents of multiple files. For instance, if we have hello.java and bye.txt in our current directory, running cat hello.java bye.txt would output the contents of those two files onto the terminal.
+
 
 ![Image](commands.png)
 
