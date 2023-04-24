@@ -1,20 +1,19 @@
-#Lab Report 2
+# Lab Report 2
 
 ## Part 1 - Running StringServer
 
-Write a web server called StringServer that supports the path and behavior 
-described below. It should keep track of a single string that gets added
-to by incoming requests. The requests should look like this:
+Write a web server called StringServer which should keep track of a single string that gets added
+to by incoming requests. These requests should look like this:
 
 
 `/add-message?s=<string>`
 
 
-The effect of this request is to concatenate a new line (`\n`)
-and the string after `=` to the running string, and then respond with the entire string so far.
+The request should concatenate a new line (`\n`)
+and the string after `=` to the current string, and then output the entire string so far to the page.
 
 
-So, for example, after
+So, after
 
 `/add-message?s=hello`
 
@@ -35,18 +34,19 @@ How are you
 ```
 
 The code for my implementation of StringServer is below:
+
 ![Image](stringserver1.png)
 ![Image](stringserver2.png)
 
 
 
-Here, when you run StringServer with the port value 4000, the main method is first run. 
+Here, when you run StringServer with the port value 4000, the main method is run first. 
 Since length of args is not 0, the value of port is set to 4000 and the server is started using the Server.start()
 method which takes the port and a new Handler() object as input. 
 
 
-
 Now, when you run the server with `/add-message?s=hello`, the page shows:
+
 ![Image](server_addmessage1.png)
 
 
@@ -69,6 +69,7 @@ str is updated to become "hello\n" and returned
 
 
 After that, when you run `/add-message?s=How are you`, the page shows:
+
 ![Image](server_addmessage1.png)
 
 
@@ -114,7 +115,7 @@ I have chosen the bug in ArrayExamples.java in the reverseInPlace method
 	}
 ```
 
-**Symptom (as output of above tests)
+**Symptom (as output of above tests)**
 
 ![Image](tester_output.png)
 
@@ -122,6 +123,7 @@ I have chosen the bug in ArrayExamples.java in the reverseInPlace method
 The failure of testReverseInPlace2 is because the test expected 2 at index 2 of input1 but found 3.
 
 **The before and after code**
+
 Before:
 
 ```
@@ -154,7 +156,7 @@ static void reverseInPlace(int[] arr) {
  it is not forgotten and each element in the second half gets replaced by the current value of temp.
  
  
- ##Part 3 - What I have learnt
+ ## Part 3 - What I have learnt
  
 Something I learnt in week 2 is how to run servers from my own computer and from other computers I have remotely connected to. It was 
 also interesting to understand different parts of a url and how I can vary the output of the web page depending on the query or the path.
