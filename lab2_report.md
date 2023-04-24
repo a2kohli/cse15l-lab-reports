@@ -115,6 +115,8 @@ public void testReverseInPlace() {
 ![Image](tester_output.png)
 
 
+Note: there are two failures here. This is because the code I wrote had other tests as well and another one of them failed.
+
 The failure of testReverseInPlace2 is because the test expected 2 at index 2 of input1 but found 3.
 
 **The before and after code**
