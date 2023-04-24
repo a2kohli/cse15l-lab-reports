@@ -38,7 +38,8 @@ The code for my implementation of StringServer is below:
 ![Image](stringserver1.png)
 ![Image](stringserver2.png)
 
-
+Note: StringServer.java was made in the same folder as Server.java which gives us the URLHandler interface and helps start the server on which our 
+website runs.
 
 Here, when you run StringServer with the port value 4000, the main method is run first. 
 Since length of args is not 0, the value of port is set to 4000 and the server is started using the Server.start()
