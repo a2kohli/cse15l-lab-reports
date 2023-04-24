@@ -50,20 +50,19 @@ Now, when you run the server with `/add-message?s=hello`, the page shows:
 ![Image](server_addmessage1.png)
 
 
-1) First, the entire url is taken as input as new URI("http://localhost:4000/add-message?s=hello") by the handleRequest() method in the Handler() class and the value of the local variable str
-is an empty string.
+1) First, the entire url is taken as input as new URI("http://localhost:4000/add-message?s=hello") by the handleRequest() method in the Handler() class and the value of the local variable str is an empty string.
 
 2) The if condition uses the getPath() and equals() function to check if the path is the root directory or /.
 
 3) Since it isn't, the else condition is evaluated
 
-4) This prints the current path to the terminal, then the if condition inside checks if the path contains "/add-message" using
+4) This prints the current path to the terminal using the println method, then the if condition inside checks if the path contains "/add-message" using
 the getPath and contains method. 
 
 5) Since it does contain "/add-message", the body of the if condition is run where the parameters variable is set
 equal to {"s", "hello"} since the getQuery method returns the query string s=hello from the url and when that is split at the "=", we get parameters.
 
-6) Now, since parameters[0] does indeed equal s, the if condition inside is also evaluated. The value of the local variable
+6) Now, since parameters[0] does indeed equal s, the if condition inside the current if condition is also evaluated. The value of the local variable
 str is updated to become "hello\n" and returned
 
 
@@ -73,12 +72,12 @@ After that, when you run `/add-message?s=How are you`, the page shows:
 ![Image](server_addmessage1.png)
 
 
-a) The handleRequest method runs similarly as in 1) to 4) above.
+a) The initial part of the handleRequest method runs similarly as in 1) to 4) above.
 
 b) Next, since the path does contain "/add-message", the body of the if condition is run where the parameters variable is set
 equal to {"s", "how are you"}.
 
-c) Now, since parameters[0] does indeed equal s, the if condition inside is also evaluated. The value of the local variable
+c) Now, since parameters[0] does indeed equal s, the if condition inside the current if condition is also evaluated. The value of the local variable
 str is updated to become "hello\nhow are you\n" and returned. This is why we see hello on one line and how are you on one line in 
 output on the page
 
@@ -148,12 +147,12 @@ static void reverseInPlace(int[] arr) {
   
  Earlier, the bug was that the for loop looped through the entire array instead of half the array. As a result,
  the elements in the second half would correctly be placed at indices in the first half. However, since they now replace
- the elements in the first half, the for loop sets the elements in the second half to be the same only.
+ the elements in the first half, the for loop sets the elements in the second half to remain the same.
  So, with the input as {1, 2, 3, 4}, the output becomes {4, 3, 3, 4}.
  
  The new code fixes this by only looping through half the code. Here, the elements in the second half
  are correctly placed at indices in the first half. Since each element in the first half is stored in temp, 
- it is not forgotten and each element in the second half gets replaced by the current value of temp.
+ it is not forgotten and each corresponding element in the second half gets replaced by the value of temp at the particualar index correctly.
  
  
  ## Part 3 - What I have learnt
