@@ -92,23 +92,22 @@ I have chosen the bug in ArrayExamples.java in the reverseInPlace method
 
 ```
 @Test 
-
-	public void testReverseInPlace() {
-		int[] input1 = { 3 };
-		ArrayExamples.reverseInPlace(input1);
-		assertArrayEquals(new int[]{ 3 }, input1);
-	}
+public void testReverseInPlace2() {
+    int[] input1 = {1, 2, 3, 4};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
+}
 ```
 
 **Input that doesn't induce failure**
 
 ```
 @Test 
-	public void testReverseInPlace2() {
-	    int[] input1 = {1, 2, 3, 4};
-	    ArrayExamples.reverseInPlace(input1);
-	    assertArrayEquals(new int[]{4, 3, 2, 1}, input1);
-	}
+public void testReverseInPlace() {
+	int[] input1 = { 3 };
+	ArrayExamples.reverseInPlace(input1);
+	assertArrayEquals(new int[]{ 3 }, input1);
+}
 ```
 
 **Symptom (as output of above tests)**
