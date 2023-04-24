@@ -154,8 +154,8 @@ static void reverseInPlace(int[] arr) {
  are correctly placed at indices in the first half. Since each element in the first half is stored in temp, 
  it is not forgotten and each corresponding element in the second half gets replaced by the value of temp at the particualar index correctly.
  
- 
- ## Part 3 - What I have learnt
+
+## Part 3 - What I've learnt
  
 Something I learnt in week 2 is how to run servers from my own computer and from other computers I have remotely connected to. It was 
 also interesting to understand different parts of a url and how I can vary the output of the web page depending on the query or the path.
