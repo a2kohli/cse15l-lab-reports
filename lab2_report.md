@@ -70,7 +70,7 @@ str is updated to become "hello\n" and returned
 
 After that, when you run `/add-message?s=How are you`, the page shows:
 
-![Image](server_addmessage1.png)
+![Image](server_addmessage2.png)
 
 
 a) The initial part of the handleRequest method runs similarly as in 1) to 4) above.
