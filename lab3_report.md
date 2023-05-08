@@ -7,6 +7,8 @@
 This is useful as sometimes we might want to look at all occurences of the given string,
 independent of the case.
 
+I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
+
 Examples of commands and their output has been shown below.
 
 ```
@@ -51,6 +53,8 @@ upregulates COX-2 protein and mRNA expression to a similar
 This is useful as sometimes we might want to locate where in the file
 the occurence of the matching string is.
 
+I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
+
 Examples of commands and their output has been shown below.
 
 ```
@@ -68,7 +72,12 @@ the floor of the cabin, injured or dead-possibly the captain and first officer. 
 
 ## Using the grep command with the -w command line option
 
--w allows us to match the exact word we are providing as the matching string
+-w allows us to match the exact word we are providing as the matching string. For example,
+if the matching word is "one", then grep won't match with "everyone" or "anyone" in the text file.
+
+This is useful when we want to look at where the exact string we are looking for occurs in the file.
+
+I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
 Examples of commands and their output has been shown below.
 
@@ -109,6 +118,13 @@ one program to another. LSC's internal procedures for clearing
 
 
 ## Using the grep command with the -c command line option
+
+-c allows us to count the number of times the matched string appears in the file.
+
+This is useful when we want to count the number of times a particular string is repeated. For example,
+if we are looking at a file with a DNA sequence, we can use this to find the number of cytosine bases.
+
+I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
 Examples of commands and their output has been shown below.
 
