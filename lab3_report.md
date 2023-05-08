@@ -5,7 +5,8 @@
 -i allows us to ignore the case of the matching string when we use grep.
 
 This is useful as sometimes we might want to look at all occurences of the given string,
-independent of the case.
+independent of the case. For instance, the starting word of a sentence always begins with a capital letter.
+-i would allow us to match with that word even when the matching string is entirely in lowercase.
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
@@ -50,8 +51,10 @@ upregulates COX-2 protein and mRNA expression to a similar
 
 -n allows us to see the line numbers against the output of grep. 
 
-This is useful as sometimes we might want to locate where in the file
-the occurence of the matching string is.
+This is useful as sometimes we might want to locate where (which line) in the file
+the occurence of the matching string is. For instance, if the file is a java file
+and we are looking for the line throwing an error, we can type "error" as the matching
+string and find the line number.
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
@@ -72,10 +75,10 @@ the floor of the cabin, injured or dead-possibly the captain and first officer. 
 
 ## Using the grep command with the -w command line option
 
--w allows us to match the exact word we are providing as the matching string. For example,
-if the matching word is "one", then grep won't match with "everyone" or "anyone" in the text file.
+-w allows us to match the exact word we are providing as the matching string. 
 
-This is useful when we want to look at where the exact string we are looking for occurs in the file.
+This is useful when we want to look at where the EXACT string we are looking for occurs in the file.
+For example, if the matching word is "one", then grep won't match with "everyone" or "anyone" in the file.
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
