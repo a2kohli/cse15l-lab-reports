@@ -2,6 +2,13 @@
 
 ## Using the grep command with the -i command line option
 
+-i allows us to ignore the case of the matching string when we use grep.
+
+This is useful as sometimes we might want to look at all occurences of the given string,
+independent of the case.
+
+Examples of commands and their output has been shown below.
+
 ```
 Command - grep -i "one" ./technical/government/About_LSC/Comments_on_semiannual.txt
 
@@ -39,6 +46,13 @@ upregulates COX-2 protein and mRNA expression to a similar
 
 ## Using the grep command with the -n command line option
 
+-n allows us to see the line numbers against the output of grep. 
+
+This is useful as sometimes we might want to locate where in the file
+the occurence of the matching string is.
+
+Examples of commands and their output has been shown below.
+
 ```
 Command -  grep -n "impact" ./technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 
@@ -53,6 +67,10 @@ the floor of the cabin, injured or dead-possibly the captain and first officer. 
 ```
 
 ## Using the grep command with the -w command line option
+
+-w allows us to match the exact word we are providing as the matching string
+
+Examples of commands and their output has been shown below.
 
 ```
 Command - grep -w "normal" ./technical/biomed/1468-6708-3-1.txt
@@ -91,6 +109,8 @@ one program to another. LSC's internal procedures for clearing
 
 
 ## Using the grep command with the -c command line option
+
+Examples of commands and their output has been shown below.
 
 ```
 Command - grep -c "alcohol" ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt
