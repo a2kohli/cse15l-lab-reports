@@ -10,7 +10,7 @@ independent of the case. For instance, the starting word of a sentence always be
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
-Examples of commands and their output has been shown below.
+Examples of commands and their output have been shown below.
 
 ```
 Command - grep -i "one" ./technical/government/About_LSC/Comments_on_semiannual.txt
@@ -58,7 +58,7 @@ string and find the line number.
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
-Examples of commands and their output has been shown below.
+Examples of commands and their output have been shown below.
 
 ```
 Command -  grep -n "impact" ./technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
@@ -82,7 +82,7 @@ For example, if the matching word is "one", then grep won't match with "everyone
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
-Examples of commands and their output has been shown below.
+Examples of commands and their output have been shown below.
 
 ```
 Command - grep -w "'normal'" ./technical/biomed/1468-6708-3-1.txt
@@ -110,7 +110,7 @@ if we are looking at a file with a DNA sequence, we can use this to find the num
 
 I found the information about this command line option at [freecodecamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
 
-Examples of commands and their output has been shown below.
+Examples of commands and their output have been shown below.
 
 ```
 Command - grep -c "alcohol" ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt
