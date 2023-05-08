@@ -82,29 +82,10 @@ I found the information about this command line option at [freecodecamp](https:/
 Examples of commands and their output has been shown below.
 
 ```
-Command - grep -w "normal" ./technical/biomed/1468-6708-3-1.txt
+Command - grep -w "'normal'" ./technical/biomed/1468-6708-3-1.txt
 
-Output - classifies normal weight (without reference to age) as a
-subgroup to the 'normal' group. The effect size is the
+Output - subgroup to the 'normal' group. The effect size is the
 with BMI from 18.5 to 20 would be considered 'normal' by
-compared with normal group). Underweight men also had lower
-the normal group, in part because of low sample size. Men
-classified as normal, overweight or obese all had about the
-women and men. Women who were normal or overweight averaged
-normal group. The relationship of BMI to YHL for men is
-women than for men in the normal and overweight groups, but
-to the normal BMI group. The effect sizes are shown in
-4.50 YHL compared to 4.92 for normal women, and the common
-treatment to help underweight women achieve normal weight
-underweight to normal. YHL and YOL have similar effect
-to normal yielded small, non-significant effect sizes, with
-would be needed. For comparing obese to normal, only YHL
-to that of their normal weight peers could be performed
-make obese women comparable to normal women could be
-from those of normal weight, suggesting that these two
-being obese to being normal would likely show changes in
-normal-weight peers (presumably by addressing the
-differences between the overweight and normal weight
 ```
 
 ```
