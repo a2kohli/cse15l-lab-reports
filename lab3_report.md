@@ -82,7 +82,7 @@ I found the information about this command line option at [freecodecamp](https:/
 Examples of commands and their output has been shown below.
 
 ```
-Command - grep -w "normal" ./technical/biomed/1468-6708-3-1.txt
+Command - grep -w "'normal'" ./technical/biomed/1468-6708-3-1.txt
 
 Output - classifies normal weight (without reference to age) as a
 subgroup to the 'normal' group. The effect size is the
