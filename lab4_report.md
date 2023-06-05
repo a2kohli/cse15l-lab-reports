@@ -22,13 +22,13 @@ Keystrokes used:
   
 ## 3 - Run the tests, demonstrating that they fail
 Keystrokes used: 
-* ```bash test.sh``` (runs the tests)
+* ```bash test.sh <enter>``` (runs the tests)
   
 ![image](x_bashincorrect.png)  
   
 ## 4 - Edit the code file to fix the failing test
 Keystrokes used: 
-* ```vim ListExamples.java```
+* ```vim ListExamples.java <enter>```
 * ```/index1``` (this found the first occurence of index1)
 * ```nnnnnnnnn``` (this navigated to the desired occurence of index1
 * ```<right><right><right><right><right><right>``` (this navigated to the end of the occurence of index1)
@@ -44,15 +44,15 @@ Keystrokes used:
   
 ## 5 - Run the tests, demonstrating that they now succeed
 Keystrokes used: 
-* ```bash test.sh``` (runs the tests)
+* ```bash test.sh <enter>``` (runs the tests)
   
 ![image](x_correct.png)
                      
 ## 6 - Commit and push the resulting change to your Github account
 Keystrokes used: 
-* ```git add ListExamples.java``` (adds the ListExamples.java file)
-* ```git commit -m "ListExamples commited"``` (commits the file)
-* ```git push git@github.com:a2kohli/lab7.git``` (pushes the changed file to the github account)
+* ```git add ListExamples.java <enter>``` (adds the ListExamples.java file)
+* ```git commit -m "ListExamples commited" <enter>``` (commits the file)
+* ```git push git@github.com:a2kohli/lab7.git <enter>``` (pushes the changed file to the github account)
   
 ![image](x_commit.png)
 ![image](x_push.png)
