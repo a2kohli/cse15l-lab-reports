@@ -28,7 +28,7 @@ Keystrokes used:
   
 ## 4 - Edit the code file to fix the failing test
 Keystrokes used: 
-* ```vim ListExamples.java <enter>```
+* ```vim ListExamples.java <enter>``` (this enters vim normal mode)
 * ```/index1``` (this found the first occurence of index1)
 * ```nnnnnnnnn``` (this navigated to the desired occurence of index1
 * ```<right><right><right><right><right><right>``` (this navigated to the end of the occurence of index1)
