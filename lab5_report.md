@@ -65,6 +65,7 @@ The problem in my code:
 To correct this we can just write ```index2 += 1;``` instead of ```index1 += 1;```
 
 The fix:
+
 ![image](z_codefix.png)
 
 ### 4. All the information needed about the setup
@@ -79,6 +80,7 @@ ListExamplesTests.java:
 ![image](z_ListExamplesTests.png)
 
 File and Directory structure:
+
 ![image](z_filedirstructure.png)
 
 The code fix: I wrote ```index2 += 1;``` instead of ```index1 += 1;```.
