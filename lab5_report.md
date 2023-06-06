@@ -85,6 +85,8 @@ File and Directory structure:
 
 The code fix: I wrote ```index2 += 1;``` instead of ```index1 += 1;``` on line 43.
 
+![image](z_bashcorrectoutput.png)
+
 
 ## Part 2 - Reflection
 One thing I've learnt in the second half of the course is how to use git and commit changes to files from the command line 
