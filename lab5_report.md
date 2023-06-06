@@ -83,7 +83,7 @@ File and Directory structure:
 
 ![image](z_filedirstructure.png)
 
-The code fix: I wrote ```index2 += 1;``` instead of ```index1 += 1;```.
+The code fix: I wrote ```index2 += 1;``` instead of ```index1 += 1;``` on line 43.
 
 
 ## Part 2 - Reflection
